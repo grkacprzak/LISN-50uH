@@ -1,0 +1,252 @@
+(footprint "L_Wuerth_HCC-1210"
+	(version 20241228)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "High Current Inductor, Wuerth Elektronik, WE-HCC, SMT 12.1mmx11.4mm")
+	(tags "Choke High Current Inductor WE-HCC Wuerth")
+	(property "Reference" "REF**"
+		(at 0 -6.8 0)
+		(layer "F.SilkS")
+		(uuid "9830f532-7235-4ad3-bf6f-2e7bf86c0598")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Wuerth_HCC-1210"
+		(at 0 6.9 0)
+		(layer "F.Fab")
+		(uuid "2b6d62cd-a3d2-462e-8c61-c7bcaf8d4e07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "137a48b4-f85e-45c1-a7ac-43963ad3b58e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71c80fe8-b9ee-481e-a179-0f72f2e6ea0f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6.15 -5.8)
+		(end 0 -5.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d463a86c-e6cc-4af7-a23b-16786d691bf4")
+	)
+	(fp_line
+		(start -6.15 -3)
+		(end -6.15 -5.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7dd4ff48-bbdf-4828-99e8-4b410147b92e")
+	)
+	(fp_line
+		(start -6.15 3)
+		(end -6.15 5.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "626a1e33-b3bd-48d1-9049-16a48cfb1094")
+	)
+	(fp_line
+		(start -6.15 5.8)
+		(end -0.05 5.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ee0923e0-d613-4a42-afe6-2cf9cb57a918")
+	)
+	(fp_line
+		(start 6.15 -5.8)
+		(end 0 -5.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa66375e-7820-44f9-b70d-0269ab2614e4")
+	)
+	(fp_line
+		(start 6.15 -3)
+		(end 6.15 -5.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b4f86ed3-1cf3-43fb-810a-97531d8212f5")
+	)
+	(fp_line
+		(start 6.15 3)
+		(end 6.15 5.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "852901f6-ef75-40a4-9754-953dfcab3160")
+	)
+	(fp_line
+		(start 6.15 5.8)
+		(end 0 5.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "62d4c0d2-dd05-4cf0-b9f0-18b66e7c9f20")
+	)
+	(fp_line
+		(start -6.75 -6.05)
+		(end -6.75 6.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e4bd66a0-58d5-4a4e-b42d-ef1fce443813")
+	)
+	(fp_line
+		(start -6.75 6.05)
+		(end 6.7 6.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c8fd428d-df60-4578-83f0-e94a8e5e63fb")
+	)
+	(fp_line
+		(start 6.7 -6.05)
+		(end -6.75 -6.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0528995d-6eee-4b9c-9c4a-efb2ead5e9dc")
+	)
+	(fp_line
+		(start 6.7 6.05)
+		(end 6.7 -6.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ebf6a4cc-feaa-4441-919c-c3d7f4dc3e68")
+	)
+	(fp_line
+		(start -6.05 -5.7)
+		(end -6.05 5.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fc683a7f-355b-4547-9615-311ee8a1cf60")
+	)
+	(fp_line
+		(start -6.05 5.7)
+		(end 6.05 5.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c26d7b77-4297-4c3f-8c31-550068ef73e2")
+	)
+	(fp_line
+		(start 6.05 -5.7)
+		(end -6.05 -5.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "56c479d0-bf42-4a8a-ba6b-e6a83894dd7c")
+	)
+	(fp_line
+		(start 6.05 5.7)
+		(end 6.05 -5.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ec76139d-7214-4134-ae25-ec672c5793b6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "5f2402b7-a55f-4dda-80a9-26561dcc0c47")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -5 0)
+		(size 3 5.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ae9744bf-c1a1-43cb-9298-b221d85716bd")
+	)
+	(pad "2" smd rect
+		(at 5 0)
+		(size 3 5.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "30e6f978-a63b-46fc-8281-564d2b7fa30f")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/WE-HCC-1210_FERRITE (rev1).stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
