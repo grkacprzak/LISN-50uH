@@ -1,12 +1,12 @@
-(footprint "L_Toroid_Vertical_L26.0mm_W12.9mm_P10.0mm_Wuerth_WE-FI"
+(footprint "L_Toroid_Vertical_L38.0mm_W16.0mm_P15.0mm_Wuerth_WE-FI"
 	(version 20241228)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "L_Toroid, Vertical series, Radial, pin pitch=10.0mm, length*width=26.0*12.9mm")
-	(tags "L_Toroid Vertical series Radial pin pitch 10.0mm  length 26.0mm width 12.9mm Wuerth WE-FI")
+	(descr "L_Toroid, Vertical series, Radial, pin pitch=15.0mm, length*width=38.0*16,0mm")
+	(tags "L_Toroid Vertical series Radial pin pitch 15.0mm  length 38.0mm width 16.0mm Wuerth WE-FI")
 	(property "Reference" "REF**"
-		(at 0 -7 0)
+		(at 0 -10 0)
 		(layer "F.SilkS")
 		(uuid "b8071ad7-850c-4809-b009-b7f2df9b1651")
 		(effects
@@ -16,8 +16,8 @@
 			)
 		)
 	)
-	(property "Value" "L_Toroid_Vertical_L26.0mm_W12.9mm_P10.0mm_Wuerth_WE-FI"
-		(at 0 7 0)
+	(property "Value" "L_Toroid_Vertical_L38.0mm_W16.0mm_P15.0mm_Wuerth_WE-FI"
+		(at 0 10 0)
 		(layer "F.Fab")
 		(uuid "b13a527b-e707-4afb-9062-1267057debb2")
 		(effects
@@ -54,6 +54,36 @@
 		)
 	)
 	(attr through_hole)
+	(fp_line
+		(start -19 -8)
+		(end -2 -8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cd61f170-af66-434d-9f8a-6db796f60afb")
+	)
+	(fp_line
+		(start -19 8)
+		(end -19 -8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8f0c3629-728c-4c3f-b805-0f5c7ed42cb6")
+	)
+	(fp_line
+		(start -19 8)
+		(end -2 8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2da222cc-08e8-4f94-acf6-78685cc2e827")
+	)
 	(fp_line
 		(start -13 -5)
 		(end -13 5)
@@ -115,8 +145,38 @@
 		(uuid "3f9f5b63-789c-4ada-9546-cb3fd33bce34")
 	)
 	(fp_line
-		(start -13.1 -5.1)
-		(end -13.1 5.1)
+		(start 19 -8)
+		(end 2 -8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9b7ebc02-d14e-41e6-b855-51a7a06c411c")
+	)
+	(fp_line
+		(start 19 8)
+		(end 2 8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "df60e79c-6fcb-403b-91a1-1de57a1c2354")
+	)
+	(fp_line
+		(start 19 8)
+		(end 19 -8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c0ef425a-d220-44e6-ab43-261e026c1f48")
+	)
+	(fp_line
+		(start -19.1 -8.1)
+		(end -19.1 8.1)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -125,8 +185,8 @@
 		(uuid "7917b24f-4404-47b7-91cf-a540d2d1d607")
 	)
 	(fp_line
-		(start -13.1 5.1)
-		(end 13.1 5.1)
+		(start -19.1 8.1)
+		(end 19.1 8.1)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -135,8 +195,8 @@
 		(uuid "9d14c615-bdf2-43b8-a3a1-0270a6ea1a90")
 	)
 	(fp_line
-		(start 13.1 -5.1)
-		(end -13.1 -5.1)
+		(start 19.1 -8.1)
+		(end -19.1 -8.1)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -145,8 +205,8 @@
 		(uuid "e5e10b7c-7c67-4f35-9722-9ba6a7381d23")
 	)
 	(fp_line
-		(start 13.1 5.1)
-		(end 13.1 -5.1)
+		(start 19.1 8.1)
+		(end 19.1 -8.1)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -326,6 +386,19 @@
 		)
 	)
 	(pad "1" thru_hole circle
+		(at 0 -7.5)
+		(size 2.5 2.5)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "d36f3311-3658-4761-a5d4-5f904dfa3640")
+	)
+	(pad "1" thru_hole circle
 		(at 0 -5)
 		(size 2.5 2.5)
 		(drill 1.4)
@@ -351,10 +424,23 @@
 		(remove_unused_layers no)
 		(uuid "a3f1b697-4d75-45ed-b12e-b42dec3d17bc")
 	)
+	(pad "2" thru_hole circle
+		(at 0 7.5)
+		(size 2.5 2.5)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "0fa61952-e6d1-469c-88bc-67c0d96df9b0")
+	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3dmodels/WE-FI 7447053 (rev1).stp"
+	(model "${KIPRJMOD}/3dmodels/WE-FI 7447019 (rev1).stp"
 		(offset
-			(xyz 0 0 11)
+			(xyz 0 0 17.5)
 		)
 		(scale
 			(xyz 1 1 1)
