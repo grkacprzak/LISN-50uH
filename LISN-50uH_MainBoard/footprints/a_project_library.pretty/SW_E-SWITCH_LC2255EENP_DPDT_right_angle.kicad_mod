@@ -1,12 +1,12 @@
 (footprint "SW_E-SWITCH_LC2255EENP_DPDT_right_angle"
-	(version 20241228)
+	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "E-SWITCH, Push-Push switch, DPDT, right angle")
 	(tags "switch DPDT")
 	(property "Reference" "REF**"
-		(at 0 -4 0)
+		(at 0 -3.85 0)
 		(layer "F.SilkS")
 		(uuid "c1a55e12-be32-44db-8f12-4021e6f25e14")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "SW_CK_JS202011CQN_DPDT_Straight"
-		(at 0 4.5 0)
+		(at 0 4.65 0)
 		(layer "F.Fab")
 		(uuid "ae9f00c0-8b3d-4fce-8313-835654ea16e9")
 		(effects
@@ -28,7 +28,7 @@
 		)
 	)
 	(property "Datasheet" "https://www.tme.eu/Document/4bad248524607c25431fb5575f456ee5/LC2255EENP.pdf"
-		(at -3.2 -1.65 0)
+		(at -3.2 -2 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -41,7 +41,7 @@
 		)
 	)
 	(property "Description" ""
-		(at -3.2 -1.65 0)
+		(at -3.2 -1.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -175,8 +175,8 @@
 		(uuid "ecb5e41e-e630-4adf-9973-81f5b5f5dbfd")
 	)
 	(fp_line
-		(start 6.5 -2.8)
-		(end 7.3 2.8)
+		(start 6.5 -2.85)
+		(end 7.3 2.75)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -185,8 +185,8 @@
 		(uuid "217be738-3504-4808-be52-e89150b2eafa")
 	)
 	(fp_line
-		(start 7.8 -2.8)
-		(end 8.6 2.8)
+		(start 7.8 -2.85)
+		(end 8.6 2.75)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -195,8 +195,8 @@
 		(uuid "774f36fe-294e-4e86-8ff1-e9e724e42a79")
 	)
 	(fp_line
-		(start 9 -2.8)
-		(end 9.8 2.8)
+		(start 9 -2.85)
+		(end 9.8 2.75)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -205,8 +205,8 @@
 		(uuid "f8cb4d9e-54c4-426a-86e1-db5f29206937")
 	)
 	(fp_line
-		(start 10.2 -2.8)
-		(end 11 2.8)
+		(start 10.2 -2.85)
+		(end 11 2.75)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -215,8 +215,8 @@
 		(uuid "eb1bc215-61f6-4adc-ac5f-d07f4f58c93a")
 	)
 	(fp_line
-		(start 11.4 -2.8)
-		(end 12.2 2.8)
+		(start 11.4 -2.85)
+		(end 12.2 2.75)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -225,8 +225,8 @@
 		(uuid "bd42af18-901f-4f1d-a48d-947a27ef9ba6")
 	)
 	(fp_line
-		(start 12.6 -2.8)
-		(end 13.4 2.8)
+		(start 12.6 -2.85)
+		(end 13.4 2.75)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -235,8 +235,8 @@
 		(uuid "388e3b3c-adf3-4bcf-b262-6e17af827593")
 	)
 	(fp_line
-		(start 14.1 -2.8)
-		(end 14.1 2.8)
+		(start 14.1 -2.85)
+		(end 14.1 2.75)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -245,8 +245,8 @@
 		(uuid "28d09faf-d88a-4636-ba6e-95f00230b219")
 	)
 	(fp_line
-		(start 16.05 -1.5)
-		(end 6 -1.5)
+		(start 16.05 -1.55)
+		(end 6 -1.55)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -255,8 +255,8 @@
 		(uuid "0c5e588c-630e-4659-a1e1-6d3c3548d466")
 	)
 	(fp_line
-		(start 16.05 -1)
-		(end 16.05 -1.5)
+		(start 16.05 -1.05)
+		(end 16.05 -1.55)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -265,8 +265,8 @@
 		(uuid "a91f115f-6acf-4435-93d4-0248f06dad96")
 	)
 	(fp_line
-		(start 16.05 1.2)
-		(end 16.75 1.2)
+		(start 16.05 1.15)
+		(end 16.75 1.15)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -275,8 +275,8 @@
 		(uuid "8e39744b-ef5e-49e8-9835-0bf236f77862")
 	)
 	(fp_line
-		(start 16.05 1.7)
-		(end 6 1.7)
+		(start 16.05 1.65)
+		(end 6 1.65)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -285,8 +285,8 @@
 		(uuid "f3bc94f6-36bd-4a91-a56b-db5089ba0ebe")
 	)
 	(fp_line
-		(start 16.05 1.7)
-		(end 16.05 1.2)
+		(start 16.05 1.65)
+		(end 16.05 1.15)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -295,8 +295,8 @@
 		(uuid "be109ce8-d82c-4b86-ba63-55e8e60dfa51")
 	)
 	(fp_line
-		(start 16.75 -1.5)
-		(end 16.75 -1)
+		(start 16.75 -1.55)
+		(end 16.75 -1.05)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -305,8 +305,8 @@
 		(uuid "cad44f57-5edd-4a32-a84f-fa01de5adde3")
 	)
 	(fp_line
-		(start 16.75 -1)
-		(end 16.05 -1)
+		(start 16.75 -1.05)
+		(end 16.05 -1.05)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -315,8 +315,8 @@
 		(uuid "a9987ad0-ec3a-4a08-bd5f-d41c12517c77")
 	)
 	(fp_line
-		(start 16.75 1.2)
-		(end 16.75 1.7)
+		(start 16.75 1.15)
+		(end 16.75 1.65)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -325,8 +325,8 @@
 		(uuid "00a1e73c-9c4e-47d8-9377-c2f7538e8d37")
 	)
 	(fp_line
-		(start 19.25 -1.5)
-		(end 16.75 -1.5)
+		(start 19.25 -1.55)
+		(end 16.75 -1.55)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -335,8 +335,8 @@
 		(uuid "bc202406-3bbd-474c-98f3-a12331b3bdec")
 	)
 	(fp_line
-		(start 19.25 -1.5)
-		(end 19.25 1.7)
+		(start 19.25 -1.55)
+		(end 19.25 1.65)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -345,8 +345,8 @@
 		(uuid "4046c545-394b-49df-9f78-031d6ca0207b")
 	)
 	(fp_line
-		(start 19.25 1.7)
-		(end 16.75 1.7)
+		(start 19.25 1.65)
+		(end 16.75 1.65)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -366,7 +366,7 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at -3.2 -1.65)
+		(at -3.2 -1.5)
 		(size 1.4 1.4)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
@@ -375,7 +375,7 @@
 		(uuid "73421228-c812-4927-8661-e333dac21414")
 	)
 	(pad "2" thru_hole circle
-		(at 0 -1.65)
+		(at 0 -1.5)
 		(size 1.4 1.4)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
@@ -383,7 +383,7 @@
 		(uuid "02f1c38d-7236-4518-a78b-d3d327841222")
 	)
 	(pad "3" thru_hole circle
-		(at 3.2 -1.65)
+		(at 3.2 -1.5)
 		(size 1.4 1.4)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
@@ -391,7 +391,7 @@
 		(uuid "5abf7ffb-b382-4ef2-a28a-f23ad19d712b")
 	)
 	(pad "4" thru_hole circle
-		(at 3.2 1.35)
+		(at 3.2 1.5)
 		(size 1.4 1.4)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
@@ -399,7 +399,7 @@
 		(uuid "0b620c60-32bc-4aa5-abff-eff99cecee76")
 	)
 	(pad "5" thru_hole circle
-		(at 0 1.35)
+		(at 0 1.5)
 		(size 1.4 1.4)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
@@ -407,7 +407,7 @@
 		(uuid "6c3726b5-0abc-48f4-8827-ed5b58320f39")
 	)
 	(pad "6" thru_hole circle
-		(at -3.2 1.35)
+		(at -3.2 1.5)
 		(size 1.4 1.4)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
@@ -415,7 +415,7 @@
 		(uuid "80d923ad-b5ae-4c95-8b6b-4a18add45a1a")
 	)
 	(pad "7" thru_hole circle
-		(at -5.7 2.85)
+		(at -5.7 3)
 		(size 1.4 1.4)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
@@ -424,7 +424,7 @@
 		(uuid "65d99d81-98c5-429f-8557-ac1858e23a5b")
 	)
 	(pad "7" thru_hole circle
-		(at 5.7 -3.15)
+		(at 5.7 -3)
 		(size 1.4 1.4)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
