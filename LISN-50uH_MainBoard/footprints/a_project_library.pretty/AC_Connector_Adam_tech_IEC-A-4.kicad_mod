@@ -1,5 +1,5 @@
 (footprint "AC_Connector_Adam_tech_IEC-A-4"
-	(version 20241228)
+	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
@@ -115,8 +115,8 @@
 		(uuid "765db490-e95f-4908-b9b6-e644851bb5ef")
 	)
 	(fp_line
-		(start -1.8 -1.8)
-		(end -1.8 6.85)
+		(start -1.8 -6.6)
+		(end -1.8 20.6)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -125,8 +125,8 @@
 		(uuid "76c67b9f-3f15-4145-bbbc-8312e5795846")
 	)
 	(fp_line
-		(start -1.8 6.85)
-		(end 1.8 6.85)
+		(start -1.8 20.6)
+		(end 13.4 20.6)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -135,8 +135,8 @@
 		(uuid "56a0eaa8-1f42-4824-9fc4-0cbfa375ec08")
 	)
 	(fp_line
-		(start 1.8 -1.8)
-		(end -1.8 -1.8)
+		(start 13.4 -6.6)
+		(end -1.8 -6.6)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -145,8 +145,8 @@
 		(uuid "757b6603-0fa3-41f4-942f-2ab155c45604")
 	)
 	(fp_line
-		(start 1.8 6.85)
-		(end 1.8 -1.8)
+		(start 13.4 20.6)
+		(end 13.4 -6.6)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -361,12 +361,7 @@
 		(at 0 0)
 		(size 3 3)
 		(drill 1.8)
-		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-			"In29.Cu" "In30.Cu"
-		)
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "c7351bc0-95e7-4de9-93f8-e2fc166956da")
 	)
@@ -374,12 +369,7 @@
 		(at 0 7)
 		(size 3 3)
 		(drill 1.8)
-		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-			"In29.Cu" "In30.Cu"
-		)
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "2e14092c-1e97-4b3c-b1f4-9b887ef28570")
 	)
@@ -387,12 +377,7 @@
 		(at 0 14)
 		(size 3 3)
 		(drill 1.8)
-		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-			"In29.Cu" "In30.Cu"
-		)
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "7072b420-9990-4d8f-a6b8-3c72e84d3433")
 	)
